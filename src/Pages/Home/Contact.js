@@ -8,26 +8,26 @@ const Contact = () => {
         //     <h6 className='text-xl text-primary text-center'>Contact Us</h6>
         //     <h3 className='text-center text-3xl'>Stay Connected With Us</h3>
 
-        //     <div class="hero min-h-screen ">
-        //         <div class="hero-content flex-col lg:flex-row-reverse">
+        //     <div className="hero min-h-screen ">
+        //         <div className="hero-content flex-col lg:flex-row-reverse">
 
-        //             {/* <div class="card flex-shrink-0 w-full shadow-2xl bg-base-100"> */}
-        //                 {/* <div class="card-body"> */}
-        //                     <div class="form-control will-change-auto">
-        //                         <label class="label">
-        //                             <span class="label-text">Email</span>
+        //             {/* <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100"> */}
+        //                 {/* <div className="card-body"> */}
+        //                     <div className="form-control will-change-auto">
+        //                         <label className="label">
+        //                             <span className="label-text">Email</span>
         //                         </label>
-        //                         <input type="text" placeholder="email" class="input input-bordered" />
+        //                         <input type="text" placeholder="email" className="input input-bordered" />
         //                     </div>
-        //                     <div class="form-control will-change-auto">
-        //                         <label class="label">
-        //                             <span class="label-text">Password</span>
+        //                     <div className="form-control will-change-auto">
+        //                         <label className="label">
+        //                             <span className="label-text">Password</span>
         //                         </label>
-        //                         <input type="text" placeholder="password" class="input input-bordered" />
+        //                         <input type="text" placeholder="password" className="input input-bordered" />
 
         //                     </div>
-        //                     <div class="form-control mt-6 ">
-        //                         <button class="btn btn-primary">Submit</button>
+        //                     <div className="form-control mt-6 ">
+        //                         <button className="btn btn-primary">Submit</button>
         //                     </div>
         //                 {/* </div> */}
         //             {/* </div> */}
