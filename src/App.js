@@ -12,18 +12,20 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import MyAppointments from "./Pages/Dashboard/MyAppointments";
 import MyReview from "./Pages/Dashboard/MyReview";
 import MyHistory from "./Pages/Dashboard/MyHistory";
+import Users from "./Pages/Dashboard/Users";
+import RequireAdmin from "./Pages/Login/RequireAdmin";
 
 function App() {
   return (
     <div className="max-w-7xl mx-auto px-12">
-       <Navbar></Navbar>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/appointment" element={
           <RequireAuth>
             <Appointment />
           </RequireAuth>
-        
+
         } />
         <Route path="dashboard" element={
           <RequireAuth>
@@ -33,6 +35,11 @@ function App() {
           <Route index element={<MyAppointments></MyAppointments>}></Route>
           <Route path="review" element={<MyReview></MyReview>}></Route>
           <Route path="history" element={<MyHistory></MyHistory>}></Route>
+          <Route path="users" element={
+            <RequireAdmin>
+              <Users></Users>
+            </RequireAdmin>}>
+          </Route>
         </Route>
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
